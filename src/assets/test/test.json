@@ -5,18 +5,21 @@
       "answers": [
       {
         "id" : 1,
-        "text": "First answer",
-        "isRight": false
+        "text": "1 First answer",
+        "isRight": false,
+        "selected": false
       },
       {
         "id" : 2,
-        "text": "Second answer",
-        "isRight": false
+        "text": "1 Second answer",
+        "isRight": false,
+        "selected": false
       },
       {
         "id" : 3,
-        "text": "Third answer",
-        "isRight": false
+        "text": "1 Third answer",
+        "isRight": false,
+        "selected": false
       }
       ]
     },
@@ -26,18 +29,21 @@
        "answers": [
        {
          "id" : 1,
-         "text": "First answer",
-         "isRight": false
+         "text": "2 First answer",
+         "isRight": false,
+         "selected": false
        },
        {
          "id" : 2,
-         "text": "Second answer",
-         "isRight": false
+         "text": "2 Second answer",
+         "isRight": false,
+         "selected": false
        },
        {
          "id" : 3,
-         "text": "Third answer",
-         "isRight": false
+         "text": "2 Third answer",
+         "isRight": false,
+         "selected": false
        }
        ]
      },
@@ -47,18 +53,21 @@
        "answers": [
        {
          "id" : 1,
-         "text": "First answer",
-         "isRight": false
+         "text": "3 First answer",
+         "isRight": false,
+         "selected": false
        },
        {
          "id" : 2,
-         "text": "Second answer",
-         "isRight": false
+         "text": "3 Second answer",
+         "isRight": false,
+         "selected": false
        },
        {
          "id" : 3,
-         "text": "Third answer",
-         "isRight": false
+         "text": "3 Third answer",
+         "isRight": false,
+         "selected": false
        }
        ]
      }

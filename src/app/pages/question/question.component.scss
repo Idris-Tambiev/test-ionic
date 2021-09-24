@@ -1,0 +1,22 @@
+ion-content{
+  width: 100%;
+}
+#container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+app-test-item{
+  width: 100%;
+}
+
+.buttons{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin:0 auto;
+}

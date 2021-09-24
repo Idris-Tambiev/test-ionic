@@ -1,3 +1,18 @@
-<p>
-  question works!
-</p>
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Test</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <strong>Ready to test</strong>
+    <app-test-item [question]="currentQuestion"></app-test-item>
+  </div>
+  <div class="buttons">
+    <ion-button (click)="prevQuestion()" *ngIf="currentQuestionIndex !== 0">Prev</ion-button>
+    <ion-button (click)="nextQuestion()" *ngIf="currentQuestionIndex !== myQuestions.length-1" [disabled]="">Next</ion-button>
+    <ion-button *ngIf="currentQuestionIndex === myQuestions.length-1">Send Report</ion-button>
+  </div>
+
+</ion-content>

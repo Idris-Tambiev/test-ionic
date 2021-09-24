@@ -1,12 +1,25 @@
+import { BrowserModule } from '@angular/platform-browser';
+import { IonicModule } from '@ionic/angular';
+import { QuestionComponent } from './question.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TestItemComponent } from './components/test-item/test-item.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [QuestionComponent, TestItemComponent],
   imports: [
-    CommonModule
-  ]
+    CommonModule,
+    IonicModule,
+    ReactiveFormsModule,
+    FormsModule,
+    BrowserModule
+  ],
+  exports: [
+    QuestionComponent
+  ],
+  providers: []
 })
 export class QuestionModule { }

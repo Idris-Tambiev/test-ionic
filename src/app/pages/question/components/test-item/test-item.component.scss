@@ -1,0 +1,12 @@
+.question{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  ion-radio-group{
+    width: 98%;
+  }
+}
