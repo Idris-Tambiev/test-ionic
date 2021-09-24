@@ -1,0 +1,65 @@
+[
+   {
+     "questionNumber": 1,
+      "questionText": "Question",
+      "answers": [
+      {
+        "id" : 1,
+        "text": "First answer",
+        "isRight": false
+      },
+      {
+        "id" : 2,
+        "text": "Second answer",
+        "isRight": false
+      },
+      {
+        "id" : 3,
+        "text": "Third answer",
+        "isRight": false
+      }
+      ]
+    },
+    {
+      "questionNumber": 2,
+       "questionText": "Second Question",
+       "answers": [
+       {
+         "id" : 1,
+         "text": "First answer",
+         "isRight": false
+       },
+       {
+         "id" : 2,
+         "text": "Second answer",
+         "isRight": false
+       },
+       {
+         "id" : 3,
+         "text": "Third answer",
+         "isRight": false
+       }
+       ]
+     },
+     {
+      "questionNumber": 3,
+       "questionText": "Third Question",
+       "answers": [
+       {
+         "id" : 1,
+         "text": "First answer",
+         "isRight": false
+       },
+       {
+         "id" : 2,
+         "text": "Second answer",
+         "isRight": false
+       },
+       {
+         "id" : 3,
+         "text": "Third answer",
+         "isRight": false
+       }
+       ]
+     }
+]
