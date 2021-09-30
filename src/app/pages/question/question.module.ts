@@ -1,3 +1,4 @@
+import { SharedModule } from './../../shared/shared.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicModule } from '@ionic/angular';
 import { QuestionComponent } from './question.component';
@@ -15,7 +16,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     IonicModule,
     ReactiveFormsModule,
     FormsModule,
-    BrowserModule
+    BrowserModule,
+    SharedModule
   ],
   exports: [
     QuestionComponent

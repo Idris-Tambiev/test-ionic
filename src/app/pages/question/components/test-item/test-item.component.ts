@@ -17,7 +17,7 @@ export class TestItemComponent implements OnInit {
 
   ngOnInit() {}
 
-  selectAnswer(id){
-    this.testService.selectAnswer(this.question.questionNumber, id);
+  selectAnswer(answerId: number){
+    this.testService.selectAnswer(this.question.questionNumber, answerId);
   }
 }

@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { TestService } from './services/test/test.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [AppComponent, MainComponent],
@@ -20,7 +21,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AppRoutingModule,
     QuestionModule,
     ReactiveFormsModule,
-    FormsModule,],
+    FormsModule,
+    SharedModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }, TestService],
   bootstrap: [AppComponent],
 })

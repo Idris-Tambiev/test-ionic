@@ -9,7 +9,10 @@ export class TestService {
   constructor() { }
 
   selectAnswer( questionNumber, answerId) {
-    const idx = this.myAnswers.findIndex((ans)=> ans.questionId === questionNumber);
+    const idx = this.myAnswers
+                    .findIndex((ans) =>
+                          ans.questionId === questionNumber
+                          );
      if (idx !== -1){
        this.myAnswers[questionNumber-1].answerId =  answerId;
      }else {

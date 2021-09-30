@@ -1,9 +1,9 @@
 <div class="question">
   <div>{{question.questionText}}</div>
   <ion-radio-group >
-    <ion-item *ngFor="let answer of question.answers" >
+    <ion-item *ngFor="let answer of question.answers;index as i" >
       <ion-label>{{answer.text}}</ion-label>
-      <ion-radio (click)="selectAnswer(answer.id)"></ion-radio>
+      <ion-radio value={{i}} (click)="selectAnswer(answer.id)" checked mode="android"></ion-radio>
     </ion-item>
   </ion-radio-group>
 </div>

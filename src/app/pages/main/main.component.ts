@@ -21,29 +21,6 @@ export class MainComponent implements OnInit, OnDestroy {
     this.currentQuestion = this.myQuestions[this.currentQuestionIndex];
   }
 
-  nextQuestion() {
-    this.currentQuestionIndex++;
-    this.currentQuestion = this.myQuestions[this.currentQuestionIndex];
-  }
-
-  prevQuestion() {
-    this.currentQuestionIndex--;
-    this.currentQuestion = this.myQuestions[this.currentQuestionIndex];
-  }
-
-  selectAnswer(event) {
-   const idx = this.myAnswers.findIndex((ans)=> ans.questionId === this.currentQuestion.questionNumber);
-    if (idx !== -1){
-      this.myAnswers[this.currentQuestionIndex].answerId =  event.detail.value;
-    }else {
-      const answer: UserAnswers = {
-        questionId: this.currentQuestion.questionNumber,
-        answerId: event.detail.value
-      };
-      this.myAnswers.push(answer);
-    }
-  }
-
    ngOnDestroy() {
    }
 }
